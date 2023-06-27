@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['token']) && $_POST['to
                             <div class="mb-4 position-relative">
                                 <label for="senha" class="form-label">Senha</label>
                                 <input type="password" name="senha" class="form-control" id="senha" style="max-width: 300px;">
-                                <i class="fas fa-lock position-absolute icon-input"></i>
+                                <i class="fas fa-lock position-absolute icon-input" id="togglePassword"></i>
                             </div>
                         <div class="mb-4 form-check text-center">
                             <input type="checkbox" class="form-check-input" id="lembrar">
@@ -73,5 +73,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['token']) && $_POST['to
 
     <!-- Bootstrap JS -->
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
