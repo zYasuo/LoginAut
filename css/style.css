@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+body {
+    background-image: url('../img/Chinese.jpg');
+    background-size: cover; /* Isso fará a imagem cobrir todo o corpo do documento */
+    background-position: center; /* Isso centralizará a imagem */
+    font-family: 'Caprasimo', cursive;
+  
+    color: white;
+}
+
+
+.card {
+    background-color: rgba(75, 75, 75 , 0.9); 
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 7px 7px 23px #282828, -7px -7px 23px #6e6e6e;
+    box-shadow: 7px 7px 23px #282828, -7px -7px 23px #6e6e6e;
+}
+
+label {
+    font-weight: 400;
+}
+
+.icon-input {
+    right: 10px;
+    top: calc(74% - 0.5em);
+    color: black;
+    
+  }
+
